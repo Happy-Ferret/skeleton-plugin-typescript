@@ -1,24 +1,18 @@
-"use strict";
-
-System.register([], function (_export, _context) {
-  "use strict";
-
-  var HelloWorld;
-
-  function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) {
-      throw new TypeError("Cannot call a class as a function");
+System.register([], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var HelloWorld;
+    return {
+        setters:[],
+        execute: function() {
+            HelloWorld = (function () {
+                function HelloWorld() {
+                }
+                return HelloWorld;
+            }());
+            exports_1("HelloWorld", HelloWorld);
+        }
     }
-  }
-
-  return {
-    setters: [],
-    execute: function () {
-      _export("HelloWorld", HelloWorld = function HelloWorld() {
-        _classCallCheck(this, HelloWorld);
-      });
-
-      _export("HelloWorld", HelloWorld);
-    }
-  };
 });
+
+//# sourceMappingURL=hello-world.js.map

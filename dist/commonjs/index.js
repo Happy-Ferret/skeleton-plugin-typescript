@@ -1,9 +1,7 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.configure = configure;
+"use strict";
 function configure(config) {
-  config.globalResources('./hello-world');
+    config.globalResources('./hello-world');
 }
+exports.configure = configure;
+
+//# sourceMappingURL=index.js.map
