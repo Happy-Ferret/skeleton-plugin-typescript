@@ -1,6 +1,9 @@
 import {configure} from '../../src/index';
 
 class ConfigStub {
+
+  public resources: any[];
+
   globalResources(...resources) {
     this.resources = resources;
   }

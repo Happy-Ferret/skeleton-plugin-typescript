@@ -51,23 +51,26 @@
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.0.2",
     "karma-jspm": "2.2.0",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-systemjs": "^0.14.0",
     "object.assign": "^4.0.4",
+    "phantomjs-prebuilt": "^2.1.10",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2",
+    "systemjs": "^0.19.36",
     "vinyl-paths": "^2.1.0",
     "yargs": "^4.8.1"
   },
   "jspm": {
     "registry": "npm",
-    "jspmPackage": true,
     "main": "index",
     "format": "amd",
     "directories": {
       "dist": "dist/amd"
     },
-    "peerDependencies": {},
     "devDependencies": {
       "aurelia-polyfills": "^1.0.0-beta.1.1.0"
     }
-  }
+  },
+  "dependencies": {}
 }
