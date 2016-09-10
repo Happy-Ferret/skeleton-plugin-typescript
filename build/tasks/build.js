@@ -19,6 +19,7 @@ var tsProjectES6 = typescript.createProject('./tsconfig.json', { typescript: req
 var tsProjectAMD = typescript.createProject('./tsconfig.json', { typescript: require('typescript'), target: 'es5', module: 'amd' });
 var tsProjectCJS = typescript.createProject('./tsconfig.json', { typescript: require('typescript'), target: 'es5', module: 'commonjs' });
 var tsProjectSystem = typescript.createProject('./tsconfig.json', { typescript: require('typescript'), target: 'es5', module: 'system' });
+
 function build(tsProject, outputPath) {
     return gulp.src(paths.dtsSrc.concat(paths.source))
       .pipe(plumber())

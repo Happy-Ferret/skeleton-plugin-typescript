@@ -11,7 +11,8 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": ["es2015", "dom"]
   },
   "filesGlob": [
     "./src/**/*.ts",
