@@ -1,22 +1,22 @@
 {
-  "name": "aurelia-skeleton-plugin",
-  "version": "1.0.0",
-  "description": "A starter kit for building an Aurelia plugin.",
+  "name": "aurelia-skeleton-plugin-typescript",
+  "version": "0.0.1",
+  "description": "A plugin to use .. with Aurelia",
   "keywords": [
     "aurelia",
     "plugin",
     "skeleton"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "https://github.com/eriklieben/skeleton-plugin-typescript",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-plugin/issues"
+    "url": "https://github.com/eriklieben/skeleton-plugin-typescript/issues"
   },
-  "license": "CC0-1.0",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
-  "main": "dist/commonjs/index.js",
+  "license": "MIT",
+  "author": "Erik Lieben <erik.lieben@gmail.com> (https://www.eriklieben.com/)",
+  "main": "dist/amd/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-plugin"
+    "url": "https://github.com/eriklieben/skeleton-plugin-typescript"
   },
   "devDependencies": {
     "aurelia-tools": "^0.2.4",
