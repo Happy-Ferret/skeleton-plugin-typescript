@@ -7,8 +7,8 @@ System.config({
   },
 
   map: {
-    "aurelia-polyfills": "npm:aurelia-polyfills@1.1.0",
-    "npm:aurelia-polyfills@1.0.0": {
+    "aurelia-polyfills": "npm:aurelia-polyfills@1.1.1",
+    "npm:aurelia-polyfills@1.1.1": {
       "aurelia-pal": "npm:aurelia-pal@1.0.0"
     }
   }
