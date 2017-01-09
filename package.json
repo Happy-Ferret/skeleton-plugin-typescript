@@ -19,6 +19,7 @@
     "url": "https://github.com/eriklieben/skeleton-plugin-typescript"
   },
   "devDependencies": {
+    "aurelia-polyfills": "^1.1.1",
     "aurelia-tools": "^0.2.4",
     "babel-eslint": "^6.1.2",
     "babel-plugin-syntax-flow": "^6.8.0",
